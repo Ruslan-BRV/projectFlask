@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Nav";
+    src: url("/static/fonts/SaarSPDemo.otf");
+}
+body {
+    width: 1200px;
+    margin: auto;
+}
+header {
+    font-family: "Nav";
+    background-color: goldenrod;
+    height: 97px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 200ms;
+}
+
+a:hover {
+    color: brown
+}
+
+main {
+    height: 83vh;
+}
+footer {
+    display: flex;
+    background-color: rgb(148, 148, 148);
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}

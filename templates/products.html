@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block styles %}
+    <link rel="stylesheet" href="static/css/products.css">
+{% endblock styles %}
+
+{% block title %}Golden Vision. Товары{% endblock title %}
+
+{% block main %}
+    <form action="" method="post">
+        <label for="min">Минимальная цена: </label>
+        <input type="number" name="min" id="min">
+
+        <label for="max">Максимальная цена: </label>
+        <input type="number" name="max" id="max">
+        <input type="submit" value="Поиск" class="but">
+    </form>
+    <div class="products">
+        {% for product in products %}
+            <article>
+                <h2 class="name">{{ product[1] }}</h2>
+                <p class="desc">{{ product[3] }}</p>
+                <h4 class="price">{{ product[2] }}</h4>
+            </article>
+        {% endfor %}
+    </div>
+{% endblock main %}

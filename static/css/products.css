@@ -1,0 +1,39 @@
+article {
+    border: solid;
+    padding: 0 10px 10px;
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+}
+
+.name {
+    text-align: center;
+}
+
+.desc {
+    text-align: center;
+}
+
+.price {
+    color: brown;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    padding: 10px;
+    border-radius: 15px;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.but {
+    margin-top: 10px;
+}
