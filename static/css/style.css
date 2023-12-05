@@ -16,15 +16,16 @@ header {
     align-items: center;
 }
 
-a {
+.header {
     color: black;
     text-decoration: none;
     font-size: 30px;
     transition: 200ms;
 }
 
-a:hover {
-    color: brown
+.header:hover {
+    color: brown;
+    background-color: burlywood;
 }
 
 main {

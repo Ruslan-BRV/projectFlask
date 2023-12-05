@@ -1,0 +1,18 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    width: 450px;
+    margin: 0 auto;
+}
+
+li {
+    font-size: 20px;
+    margin-top: 10px;
+}
