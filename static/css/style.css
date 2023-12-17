@@ -28,13 +28,11 @@ header {
     background-color: burlywood;
 }
 
-main {
-    height: 83vh;
-}
 footer {
     display: flex;
     background-color: rgb(169, 168, 168);
     height: 40px;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }

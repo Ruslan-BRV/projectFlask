@@ -1,0 +1,26 @@
+input {
+    display: block;
+}
+textarea {
+    display: block;
+}
+input {
+    margin-bottom: 10px;
+}
+form {
+    border: solid;
+    width: 270px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.product {
+    border: solid;
+    width: 500px;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 0 auto 10px;
+}
+h2 {
+    text-align: center;
+}

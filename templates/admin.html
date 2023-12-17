@@ -1,12 +1,14 @@
 {% extends "base.html" %}
-
+{% block styles %}
+    <link rel="stylesheet" href="static/css/admin.css">
+{% endblock styles %}
 {% block title %}Golden Vision. Административная панель{% endblock title %}
 
 {% block main %}
-    <p>Здраствуйте, {{ login }}</p>
+    <h2>Здраствуйте, {{ login }}</h2>
 
     {% for product in products %}
-        <p>Id: {{product[0]}}; Название: {{product[1]}}; Цена: {{product[2]}}</p>
+        <p class="product">Id: {{product[0]}}; Название: {{product[1]}}; Цена: {{product[2]}}</p>
     {% endfor %}
 
     <form method="post" enctype="multipart/form-data">
@@ -26,7 +28,5 @@
         <input type="file" name="photo" id="photo">
 
         <input type="submit" value="Добавить товар">
-
-
     </form>
 {% endblock main %}

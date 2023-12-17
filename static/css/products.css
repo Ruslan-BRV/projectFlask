@@ -2,13 +2,15 @@ article {
     border: solid;
     padding: 0 10px 10px;
     width: 300px;
+    height: 300px;
     margin-top: 40px;
     border-radius: 15px;
 }
 .products {
     display: flex;
     justify-content: center;
-    gap: 160px;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .name {
@@ -39,5 +41,9 @@ form {
 }
 
 .imgProduct {
-    width: 100%;
+    width: 150px;
+}
+.imgDiv {
+    display: flex;
+    justify-content: center;
 }
